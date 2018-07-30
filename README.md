@@ -31,7 +31,7 @@ cordova platform add ios
 
 You can add the plugin from command line like:
 ```shell
-cordova plugin add https://github.com/techaffinity/freshchat-phonegap.git
+cordova plugin add https://github.com/onaccs/freshchat-phonegap.git
 ```
 
 ### Initializing the plugin
@@ -215,15 +215,15 @@ window.Freshchat.unreadCount(function(success,val) {
 
 #### Push Notifications
 ##### 1. Recommended Option
-To setup push notifications we recommend using our forked version of the phonegap-plugin-push available [here] (https://github.com/techaffinity/phonegap-plugin-push) .
+To setup push notifications we recommend using our forked version of the phonegap-plugin-push available [here] (https://github.com/onaccs/phonegap-plugin-push) .
 
 It can be installed by the following command : 
 ```shell
-cordova plugin add https://github.com/techaffinity/phonegap-plugin-push.git
+cordova plugin add https://github.com/onaccs/phonegap-plugin-push.git
 ```
 Or you can add it to your config.xml like:
 ```javascript
-<plugin name="phonegap-plugin-push" spec="https://github.com/techaffinity/phonegap-plugin-push.git">
+<plugin name="phonegap-plugin-push" spec="https://github.com/onaccs/phonegap-plugin-push.git">
     <param name="SENDER_ID" value="XXXXXXXXXX" />
 </plugin>
 ```

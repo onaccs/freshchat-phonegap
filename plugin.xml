@@ -48,7 +48,7 @@
 
             <config-file target="AndroidManifest.xml" parent="application" mode="merge">
                 <provider
-                android:name="com.techaffinity.phonegap.plugins.FileProvider" android:authorities="${applicationId}.provider" android:exported="false"
+                android:name="com.onaccs.phonegap.plugins.FileProvider" android:authorities="${applicationId}.provider" android:exported="false"
                 android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
@@ -60,7 +60,7 @@
         <!-- The custom parameter makes Cordova look for the gradle file in a relative location rather than the Android SDK -->
         <framework src="src/android/Freshchat/build.gradle" custom="true" type="gradleReference" />
         <source-file src="src/android/xml/freshchat_phonegap_provider_paths.xml" target-dir="res/xml" />
-        <source-file src="src/android/FileProvider.java" target-dir="src/com/techaffinity/phonegap/plugins" />
+        <source-file src="src/android/FileProvider.java" target-dir="src/com/onaccs/phonegap/plugins" />
         
     </platform>
 
